@@ -32,7 +32,7 @@ void _runApp() {
             selectionColor:  Colors.green,
           ),
         ),
-        home: BlocProvider(create: (BuildContext context) => SalesmanCubit(),
+        home: BlocProvider(create: (BuildContext context) => SalesmanCubit(RepositoryProvider.of<SalesmanRepository>(context)),
           child: SalesmanScreen(),
         ),
     ),

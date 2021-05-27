@@ -8,6 +8,7 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use salesmanRequestByIdDescriptor instead')
 const salesmanRequestById$json = const {
   '1': 'salesmanRequestById',
@@ -17,7 +18,8 @@ const salesmanRequestById$json = const {
 };
 
 /// Descriptor for `salesmanRequestById`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List salesmanRequestByIdDescriptor = $convert.base64Decode('ChNzYWxlc21hblJlcXVlc3RCeUlkEg4KAklkGAEgASgJUgJJZA==');
+final $typed_data.Uint8List salesmanRequestByIdDescriptor =
+    $convert.base64Decode('ChNzYWxlc21hblJlcXVlc3RCeUlkEg4KAklkGAEgASgJUgJJZA==');
 @$core.Deprecated('Use salesmanMsgDescriptor instead')
 const SalesmanMsg$json = const {
   '1': 'SalesmanMsg',
@@ -31,7 +33,8 @@ const SalesmanMsg$json = const {
 };
 
 /// Descriptor for `SalesmanMsg`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List salesmanMsgDescriptor = $convert.base64Decode('CgtTYWxlc21hbk1zZxIOCgJJZBgBIAEoDVICSWQSHgoKUGhvbmVOdW1lchgCIAEoDVIKUGhvbmVOdW1lchIUCgVFbWFpbBgDIAEoCVIFRW1haWwSHAoJRmlyc3ROYW1lGAQgASgJUglGaXJzdE5hbWUSGgoITGFzdE5hbWUYBSABKAlSCExhc3ROYW1l');
+final $typed_data.Uint8List salesmanMsgDescriptor = $convert.base64Decode(
+    'CgtTYWxlc21hbk1zZxIOCgJJZBgBIAEoDVICSWQSHgoKUGhvbmVOdW1lchgCIAEoDVIKUGhvbmVOdW1lchIUCgVFbWFpbBgDIAEoCVIFRW1haWwSHAoJRmlyc3ROYW1lGAQgASgJUglGaXJzdE5hbWUSGgoITGFzdE5hbWUYBSABKAlSCExhc3ROYW1l');
 @$core.Deprecated('Use requestReplyWithSalesmanDescriptor instead')
 const RequestReplyWithSalesman$json = const {
   '1': 'RequestReplyWithSalesman',
@@ -42,7 +45,8 @@ const RequestReplyWithSalesman$json = const {
 };
 
 /// Descriptor for `RequestReplyWithSalesman`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List requestReplyWithSalesmanDescriptor = $convert.base64Decode('ChhSZXF1ZXN0UmVwbHlXaXRoU2FsZXNtYW4SJgoGUmVzdWx0GAEgASgLMg4uUmVxdWVzdFJlc3VsdFIGUmVzdWx0EigKCFNhbGVzbWFuGAIgASgLMgwuU2FsZXNtYW5Nc2dSCFNhbGVzbWFu');
+final $typed_data.Uint8List requestReplyWithSalesmanDescriptor = $convert.base64Decode(
+    'ChhSZXF1ZXN0UmVwbHlXaXRoU2FsZXNtYW4SJgoGUmVzdWx0GAEgASgLMg4uUmVxdWVzdFJlc3VsdFIGUmVzdWx0EigKCFNhbGVzbWFuGAIgASgLMgwuU2FsZXNtYW5Nc2dSCFNhbGVzbWFu');
 @$core.Deprecated('Use requestReplySalesmenDescriptor instead')
 const RequestReplySalesmen$json = const {
   '1': 'RequestReplySalesmen',
@@ -53,4 +57,5 @@ const RequestReplySalesmen$json = const {
 };
 
 /// Descriptor for `RequestReplySalesmen`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List requestReplySalesmenDescriptor = $convert.base64Decode('ChRSZXF1ZXN0UmVwbHlTYWxlc21lbhImCgZSZXN1bHQYASABKAsyDi5SZXF1ZXN0UmVzdWx0UgZSZXN1bHQSKAoIU2FsZXNtZW4YAiADKAsyDC5TYWxlc21hbk1zZ1IIU2FsZXNtZW4=');
+final $typed_data.Uint8List requestReplySalesmenDescriptor = $convert.base64Decode(
+    'ChRSZXF1ZXN0UmVwbHlTYWxlc21lbhImCgZSZXN1bHQYASABKAsyDi5SZXF1ZXN0UmVzdWx0UgZSZXN1bHQSKAoIU2FsZXNtZW4YAiADKAsyDC5TYWxlc21hbk1zZ1IIU2FsZXNtZW4=');

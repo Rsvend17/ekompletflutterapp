@@ -1,28 +1,21 @@
 import 'package:ekompletflutterapp/generated/grpc/Salesman.pbgrpc.dart';
 import 'package:equatable/equatable.dart';
 
-
-
-abstract class SalesmanState extends Equatable{
+abstract class SalesmanState extends Equatable {
   const SalesmanState();
 }
-
 
 class SalesmanInitial extends SalesmanState {
   @override
   List<Object> get props => [];
 }
 
-
-class SalesmanLoading extends SalesmanState{
-
+class SalesmanLoading extends SalesmanState {
   @override
   List<Object> get props => [];
-
 }
 
-
-class SalesmanLoadFailed extends SalesmanState{
+class SalesmanLoadFailed extends SalesmanState {
   final String serverMessage;
 
   SalesmanLoadFailed(this.serverMessage);
@@ -31,7 +24,7 @@ class SalesmanLoadFailed extends SalesmanState{
   List<Object> get props => [serverMessage];
 }
 
-class SalesmanSuccess extends SalesmanState{
+class SalesmanSuccess extends SalesmanState {
   final SalesmanMsg salesmanMsg;
 
   SalesmanSuccess(this.salesmanMsg);
@@ -40,7 +33,7 @@ class SalesmanSuccess extends SalesmanState{
   List<Object> get props => [salesmanMsg];
 }
 
-class SalesmanSuccessAll extends SalesmanState{
+class SalesmanSuccessAll extends SalesmanState {
   final List<SalesmanMsg> salesmanMsgs;
 
   SalesmanSuccessAll(this.salesmanMsgs);

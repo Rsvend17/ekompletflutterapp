@@ -8,6 +8,7 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use requestResultDescriptor instead')
 const RequestResult$json = const {
   '1': 'RequestResult',
@@ -18,7 +19,8 @@ const RequestResult$json = const {
 };
 
 /// Descriptor for `RequestResult`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List requestResultDescriptor = $convert.base64Decode('Cg1SZXF1ZXN0UmVzdWx0EhwKCVN1Y2NlZWRlZBgBIAEoCFIJU3VjY2VlZGVkEhYKBkVycm9ycxgCIAMoCVIGRXJyb3Jz');
+final $typed_data.Uint8List requestResultDescriptor = $convert
+    .base64Decode('Cg1SZXF1ZXN0UmVzdWx0EhwKCVN1Y2NlZWRlZBgBIAEoCFIJU3VjY2VlZGVkEhYKBkVycm9ycxgCIAMoCVIGRXJyb3Jz');
 @$core.Deprecated('Use stringMsgDescriptor instead')
 const StringMsg$json = const {
   '1': 'StringMsg',
@@ -28,7 +30,8 @@ const StringMsg$json = const {
 };
 
 /// Descriptor for `StringMsg`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List stringMsgDescriptor = $convert.base64Decode('CglTdHJpbmdNc2cSGAoHQ29udGVudBgBIAEoCVIHQ29udGVudA==');
+final $typed_data.Uint8List stringMsgDescriptor =
+    $convert.base64Decode('CglTdHJpbmdNc2cSGAoHQ29udGVudBgBIAEoCVIHQ29udGVudA==');
 @$core.Deprecated('Use emptyDescriptor instead')
 const Empty$json = const {
   '1': 'Empty',

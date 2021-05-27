@@ -14,8 +14,7 @@ export 'RequestUtility.pb.dart';
 
 class RequestUtilityHandlerClient extends $grpc.Client {
   RequestUtilityHandlerClient($grpc.ClientChannel channel,
-      {$grpc.CallOptions? options,
-      $core.Iterable<$grpc.ClientInterceptor>? interceptors})
+      {$grpc.CallOptions? options, $core.Iterable<$grpc.ClientInterceptor>? interceptors})
       : super(channel, options: options, interceptors: interceptors);
 }
 
